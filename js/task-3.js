@@ -8,9 +8,9 @@ function handleInput(event) {
   //   console.log(event.data);
   //   console.log(event.currentTarget.value);
   const word = event.currentTarget.value.trim();
-  if (event.data === " ") {
+  if (!word) {
     nameOutput.textContent = "Anonymous";
-    // return;
+    return;
   } else {
     nameOutput.textContent = word;
   }
