@@ -62,7 +62,8 @@
 
 #boxes {
     display: flex;
-    min-width: 20000px;
+    /* min-width: 20000px; */
+    min-width: 2000vw;
     column-gap: 16px;
     border-radius: 8px;
     padding: 32px;
